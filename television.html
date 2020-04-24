@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link rel="stylesheet" type="text/css" href="colour.css" />
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+<title>TELEVISION - PIRATE MOTEL</title>
+ 
+</head>
+<body>
+<div id="adobe-dc-view"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "65ab1444316b465e94e728797e530c0b", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "/booty/television.pdf"}},
+			metaData:{fileName: "television.pdf"}
+		}, {showAnnotationTools: false, showLeftHandPanel: false, showDownloadPDF: false, 
+			showPrintPDF: false});
+	});
+</script>
+    </body>
+</html>
