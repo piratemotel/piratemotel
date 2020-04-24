@@ -11,8 +11,8 @@
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "65ab1444316b465e94e728797e530c0b", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{location: "booty/grizzly.pdf"},
-			metaData:{fileName: "grizzly.pdf"}
+			content:{location: "<booty/grizzly.pdf>"},
+			metaData:{fileName: "<grizzly.pdf>"}
 		}, {embedMode: "IN_LINE", showDownloadPDF: false, showPrintPDF: false});
 	});
 
